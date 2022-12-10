@@ -36,4 +36,3 @@ for (int i = 0; i < length; i++)
 {
     Console.Write(digitsOfNumber[i]);
 }
-Console.WriteLine();
