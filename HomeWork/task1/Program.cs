@@ -18,10 +18,8 @@ Console.WriteLine();
     int degree = 1;
     while(B > 0)
     {
-            {
-                degree = degree * A;
-                B = B - 1;
-            }
+        degree = degree * A;
+        B = B - 1;
     } 
     if(A > 0) Console.WriteLine("'A' в степени 'B' = " + (degree));
     if(A < 0) Console.WriteLine("'A' в степени 'B' = " + (-degree));
